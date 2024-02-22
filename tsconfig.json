@@ -1,0 +1,11 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "lib",
+    "strict": true,
+    "target": "ES2022"
+  }
+}

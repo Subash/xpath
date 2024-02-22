@@ -1,0 +1,21 @@
+{
+  "name": "@sbspk/xpath",
+  "version": "0.0.1",
+  "main": "lib/xpath.js",
+  "types": "lib/xpath.d.ts",
+  "scripts": {
+    "test": "jest",
+    "clean-lib": "rimraf lib",
+    "clean": "npm run clean-lib",
+    "compile-src": "tsc",
+    "prepack": "npm run clean && npm run compile-src"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
